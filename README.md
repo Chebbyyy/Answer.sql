@@ -8,6 +8,7 @@ The schema is designed to handle users, products, orders, payments, reviews, and
 The database ensures data integrity with proper constraints and supports common e-commerce operations such as browsing products, managing inventory, placing orders, and tracking deliveries.
 
 ⚙️ 2. Features of the Schema
+
 🗂️ Well-structured tables
 
 users, user_profiles, roles, orders, order_items, products, categories, suppliers, payments, reviews, wishlists, etc.
@@ -19,6 +20,7 @@ PRIMARY KEY on all tables
 FOREIGN KEY to maintain referential integrity
 
 UNIQUE and NOT NULL on important fields (e.g., emails, product SKUs, category names)
+
 
 🔗 Relationships
 
@@ -33,6 +35,7 @@ products ↔ categories
 products ↔ suppliers
 
 users ↔ wishlists
+
 
 📑 3. Main Tables
 
@@ -60,6 +63,7 @@ reviews → product reviews by customers
 
 wishlists → products saved by users for later
 
+
 🖥️ 4. Usage
 
 Run the .sql file in MySQL (via phpMyAdmin, Workbench, or CLI).
@@ -69,6 +73,7 @@ The database ecommerce_store will be created.
 Tables, constraints, and relationships will be set up automatically.
 
 You can then insert sample data or run queries as needed.
+
 
 ✅ 5. Deliverables Checklist
 
@@ -81,4 +86,5 @@ You can then insert sample data or run queries as needed.
 ✔ Relationships (1-1, 1-M, M-M)
 
 ✍️ Author: DAISY JEBICHII CHEBURET
+
 📅 Date: 21/09/2025
