@@ -1,16 +1,17 @@
 📘 E-commerce Store Database
-1. Overview
+✨ 1. Overview
 
-This project implements a relational database management system (DBMS) for an E-commerce Store using MySQL.
+This project implements a Relational Database Management System (DBMS) for an E-commerce Store using MySQL.
 The schema is designed to handle users, products, orders, payments, reviews, and other essential components of an online store.
 
 The database ensures data integrity with proper constraints and supports common e-commerce operations such as browsing products, managing inventory, placing orders, and tracking deliveries.
 
-2. Features of the Schema
+⚙️ 2. Features of the Schema
+🗂️ Well-structured tables
 
-Well-structured tables: Users, Products, Orders, Payments, Reviews, Categories, Suppliers, etc.
+users, user_profiles, roles, orders, order_items, products, categories, suppliers, payments, reviews, wishlists, etc.
 
-Constraints:
+🔒 Constraints
 
 PRIMARY KEY on all tables
 
@@ -18,13 +19,13 @@ FOREIGN KEY to maintain referential integrity
 
 UNIQUE and NOT NULL on important fields (e.g., emails, product SKUs, category names)
 
-Relationships:
+🔗 Relationships
 
-One-to-One: users ↔ user_profiles
+One-to-One → users ↔ user_profiles
 
-One-to-Many: users → orders, products → reviews
+One-to-Many → users → orders, products → reviews
 
-Many-to-Many:
+Many-to-Many →
 
 products ↔ categories
 
@@ -32,7 +33,7 @@ products ↔ suppliers
 
 users ↔ wishlists
 
-3. Main Tables
+📑 3. Main Tables
 
 users → stores customer login information
 
@@ -58,7 +59,7 @@ reviews → product reviews by customers
 
 wishlists → products saved by users for later
 
-4. Usage
+🖥️ 4. Usage
 
 Run the .sql file in MySQL (via phpMyAdmin, Workbench, or CLI).
 
@@ -68,15 +69,15 @@ Tables, constraints, and relationships will be set up automatically.
 
 You can then insert sample data or run queries as needed.
 
-5. Deliverables Checklist ✅
+✅ 5. Deliverables Checklist
 
-CREATE DATABASE statement → Yes
+✔ CREATE DATABASE statement
 
-CREATE TABLE statements → Yes
+✔ CREATE TABLE statements
 
-PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE constraints → Yes
+✔ PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE constraints
 
-Relationships (1-1, 1-M, M-M) → Yes
+✔ Relationships (1-1, 1-M, M-M)
 
 ✍️ Author: DAISY JEBICHII CHEBURET
-📅 Date: 21/9/2025
+📅 Date: 21/09/2025
